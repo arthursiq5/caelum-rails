@@ -28,7 +28,7 @@
 
   <div class="field">
     <%= form.label :termino %>
-    <%= form.datetime_select :termino %>
+    <%= form.datetime_select :termino, start_year: Time.now.year %>
   </div>
 
   <div class="actions">
